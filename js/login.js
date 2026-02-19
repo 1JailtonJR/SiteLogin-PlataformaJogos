@@ -3,8 +3,8 @@ function faz_login() {
     const password = document.getElementById("senha").value
 
     if (email == "ryanceleste@gmail.com" && password == "celestethebest") {
-        alert("VOCÊ EXISTE!!!")
+        alert("Login com Sucesso.")
     } else {
-        alert("Você não existe.")
+        alert("Email ou Senha Inválidos.")
     }
 }
